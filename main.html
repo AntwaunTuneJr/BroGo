@@ -1,0 +1,18 @@
+<html>
+  <head>
+
+    <script src='libs/quintus.js'></script>
+  </head>
+   <body>
+     <script>
+     
+      // Now set up your game (most games will load a separate .js file)
+      var $ = Quintus()                          // Create a new engine instance
+              .include("Sprites, Scenes, Input, 2D, Touch, UI") // Load any needed modules
+              .setup()                           // Add a canvas element onto the page
+              .controls()                        // Add in default controls (keyboard, buttons)
+              .touch();                          // Add in touch support (for the UI)
+              
+
+   </script>
+   </body>
